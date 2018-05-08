@@ -1,6 +1,6 @@
 // Stimulus Module/Block to verify the N bit adder module... 
 `timescale 1ns/1ps
-`include "nBitAdder.v"
+`include "n_bit_adder.v"
 
 module nBitAdder_tb;
  
@@ -10,7 +10,7 @@ module nBitAdder_tb;
  output reg Cin_sig;
  input [nbit:0] res_sig;
 
- nBitAdder nA0(.Cout(res_sig[nbit]),.Sum(res_sig[nbit-1:0]),.a(a_sig),.b(b_sig),.Cin(Cin_sig));
+ nBitAdder nA0(.cout(res_sig[nbit]),.sum(res_sig[nbit-1:0]),.a(a_sig),.b(b_sig),.cin(Cin_sig));
 
  defparam nA0.N = nbit; 
 
