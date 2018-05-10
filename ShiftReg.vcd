@@ -1,0 +1,138 @@
+$date
+	Wed May  9 19:53:06 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module shift_reg_tb $end
+$var wire 1 ! clk_sig $end
+$var wire 1 " Dout_sig $end
+$var wire 1 # Din_sig $end
+$scope module CLK0 $end
+$var reg 1 ! out $end
+$upscope $end
+$scope module D_SIG $end
+$var reg 1 # out $end
+$upscope $end
+$scope module SR0 $end
+$var wire 1 # Din $end
+$var wire 1 ! clk $end
+$var wire 5 $ w [4:0] $end
+$var wire 1 " Dout $end
+$scope begin genblk1[0] $end
+$scope module DF $end
+$var wire 1 % D $end
+$var wire 1 ! clk $end
+$var reg 1 & Q $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[1] $end
+$scope module DF $end
+$var wire 1 ' D $end
+$var wire 1 ! clk $end
+$var reg 1 ( Q $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[2] $end
+$scope module DF $end
+$var wire 1 ) D $end
+$var wire 1 ! clk $end
+$var reg 1 * Q $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[3] $end
+$scope module DF $end
+$var wire 1 + D $end
+$var wire 1 ! clk $end
+$var reg 1 , Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x,
+x+
+x*
+x)
+x(
+x'
+x&
+0%
+bx0 $
+0#
+x"
+0!
+$end
+#10
+0'
+bx00 $
+0&
+1!
+#20
+1%
+0!
+bx01 $
+1#
+#30
+0)
+1'
+0(
+bx011 $
+1&
+1!
+#40
+0%
+0!
+bx010 $
+0#
+#50
+0'
+1)
+0+
+0&
+1(
+bx0100 $
+0*
+1!
+#60
+1%
+0!
+bx0101 $
+1#
+#70
+0"
+1+
+0)
+1'
+0,
+1*
+0(
+b1011 $
+1&
+1!
+#80
+0%
+0!
+b1010 $
+0#
+#90
+0'
+1)
+0+
+1"
+0&
+1(
+0*
+b10100 $
+1,
+1!
+#100
+1%
+0!
+b10101 $
+1#

@@ -1,0 +1,59 @@
+$date
+	Thu May  3 14:44:23 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module full_add_tb $end
+$var wire 1 ! Sum_sig $end
+$var wire 1 " C_out_sig $end
+$var reg 1 # A_sig $end
+$var reg 1 $ B_sig $end
+$var reg 1 % C_sig $end
+$scope module FA0 $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 % C_in $end
+$var wire 1 " C_out $end
+$var wire 1 ! sum $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0%
+0$
+0#
+0"
+0!
+$end
+#20000
+1!
+1#
+#30000
+1$
+0#
+#40000
+0!
+1"
+1#
+#50000
+0"
+1!
+1%
+0$
+0#
+#60000
+1"
+0!
+1#
+#70000
+1$
+0#
+#80000
+1!
+1#
+#90000

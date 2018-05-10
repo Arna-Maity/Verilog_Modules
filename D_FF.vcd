@@ -1,0 +1,60 @@
+$date
+	Tue May  8 11:37:00 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module D_FF_tb $end
+$var wire 1 ! clk_sig $end
+$var wire 1 " Q_inp $end
+$var reg 1 # D_sig $end
+$scope module CLK0 $end
+$var reg 1 ! out $end
+$upscope $end
+$scope module DFF0 $end
+$var wire 1 # D $end
+$var wire 1 ! clk $end
+$var reg 1 " Q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#80
+$dumpvars
+1#
+0"
+0!
+$end
+#90
+1"
+1!
+#100
+0!
+#110
+1!
+#120
+0!
+#130
+1!
+#140
+0!
+#150
+1!
+#160
+0!
+#170
+1!
+#180
+0!
+#190
+1!
+#200
+0!
+#210
+1!
+#220
+0!
+#230
+1!
