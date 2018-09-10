@@ -1,0 +1,30 @@
+$date
+	Tue May  8 13:00:26 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module clock_tb $end
+$var wire 1 ! out_sig $end
+$scope module CLK0 $end
+$var reg 1 ! out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+$end
+#20
+1!
+#40
+0!
+#60
+1!
+#80
+0!
+#100
+1!
