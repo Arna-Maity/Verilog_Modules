@@ -5,3 +5,7 @@ As of now the set of Building blocks already implemented is fairly minimal, but 
 
 My main aim of creating such Building Blocks was to get some practical experience in Digital Design using an HDL. Moreover this would also help one in improving their knowledge of Digital Design.
 Anyone interested in using my Design Blocks is welcome. It can also serve as another resource for learning Digital Design.  
+
+As of now this Repo contains the following Modules:
+
+1.
