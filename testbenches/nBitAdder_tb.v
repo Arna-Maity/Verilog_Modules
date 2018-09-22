@@ -1,6 +1,6 @@
 // Stimulus Module/Block to verify the N bit adder module... 
 `timescale 1ns/1ps
-`include "n_bit_adder.v"
+`include "../n_bit_adder.v"
 
 module nBitAdder_tb;
  

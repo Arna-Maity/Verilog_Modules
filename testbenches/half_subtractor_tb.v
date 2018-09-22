@@ -1,6 +1,6 @@
 // This Testbench tests the half subtractor module...
 
-`include "half_subtractor.v"
+`include "../half_subtractor.v"
 
 module half_sub_tb;
 

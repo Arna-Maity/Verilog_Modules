@@ -1,6 +1,6 @@
 // This Simple Testbench verifies the Functioning of the D - Flip Flop...
-`include "verilog_alu/clock_gen.v"
-`include "d_ff.v"
+`include "../clock_gen.v"
+`include "../d_ff.v"
 `timescale 1s/1s
 
 module D_FF_tb;

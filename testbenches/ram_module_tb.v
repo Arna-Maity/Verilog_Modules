@@ -1,7 +1,7 @@
 
 // This File implements a testbench for verifying the RAM Module...
 
-`include "ram_module.v"
+`include "../ram_module.v"
 `timescale 1ns/1ps                          // Simulation Time Units / Precision...
 
 module ram_3_tb;

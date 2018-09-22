@@ -1,6 +1,6 @@
 // This File verifies the functioning of the n - bit Shift register...
-`include "clock_gen.v"
-`include "shiftReg.v"
+`include "../clock_gen.v"
+`include "../shiftReg.v"
 
 module shift_reg_tb;
 

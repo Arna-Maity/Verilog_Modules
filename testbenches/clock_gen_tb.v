@@ -1,6 +1,6 @@
 // A simple Testbench to verify the Clock Generator...
 
-`include "clock_gen.v"
+`include "../clock_gen.v"
 
 module clock_tb;
 
