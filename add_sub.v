@@ -16,6 +16,7 @@ module add_sub #(parameter N = 4) (
  assign cout = carry[N];
  assign carry[0] = M;
 
+// Instantiates N Full Adders ....
  generate
 	 for(i=0;i<N;i=i+1)
 	 begin
@@ -23,12 +24,15 @@ module add_sub #(parameter N = 4) (
 	 end
  endgenerate
 
+// Instantiates N XOR gates 
  generate
 	 for(j=0;j<N;j=j+1)
 	 begin
 		 xor B_XOR(XOR_FA[j],B[j],M);
 	 end
  endgenerate
+
+// The following XOR gate implements overflow detection...
  xor(v,cout,carry[N-1]);
 endmodule
 
